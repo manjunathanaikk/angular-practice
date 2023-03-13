@@ -1,0 +1,7 @@
+<div
+  class="my-1"
+  [ngStyle]="{ backgroundColor: getColor() }"
+  [ngClass]="{ offline: userStatus === 'Offline' }"
+>
+  {{ "User" }} with Name {{ user }} and user status is {{ getUserStatus() }}
+</div>
